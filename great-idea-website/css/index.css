@@ -64,3 +64,38 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 900px;
+	margin: auto;
+   
+}
+
+header nav {
+	display: inline-block;
+}
+header nav a{
+	margin: 0 20px;
+}
+header img.logo{
+	margin-left: 660px;
+}
+#innovation-on-demand{
+	display: inline-block;
+    margin: 0 102px;
+}
+#iod-left{
+	display: inline-block;
+	font-size: 60px;
+}
+#iod-left a {
+	font-size: 20px;
+    -webkit-appearance: push-button;
+    padding: 4px;
+    text-decoration-line: none;
+    margin-bottom: 160px;
+}
+#iod-right{
+	display: inline-block;
+    margin-left: 60px;
+    padding-top: 35px;
+}
