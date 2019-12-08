@@ -71,13 +71,16 @@ body{
 }
 
 header nav {
-	display: inline-block;
+	display: flex;
+    align-items: center;
+	width: 50px;
+	margin: 20px;
 }
 header nav a{
 	margin: 0 20px;
 }
 header img.logo{
-	margin-left: 660px;
+	margin-left: 100px;
 }
 #innovation-on-demand{
 	display: inline-block;
@@ -98,4 +101,67 @@ header img.logo{
 	display: inline-block;
     margin-left: 60px;
     padding-top: 35px;
+}
+
+#feature-about{
+	display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+	width: 96%;
+	padding-right: 15px;
+	line-height: 1.2;
+}
+#fa-left #fa-right{
+	padding-right: 9px;
+   
+}
+img.middle-img{
+	margin: 0 auto;
+    padding: 20px 0px;
+}
+#service-product-vision{
+	display: inline-flex;
+    margin-bottom: 6px;
+	justify-content: center;
+    width: 97%;
+}
+
+#spv-left {
+	display: block;
+    justify-content: space-evenly;
+    width: max-content;
+    padding-right: 10px;
+}
+
+#spv-middle{
+	display: block;
+    justify-content: space-evenly;
+    width: max-content;
+    padding-right: 10px;
+} 
+#spv-right{
+	display: block;
+    justify-content: space-evenly;
+    width: max-content;
+    padding-right: 10px;
+}
+
+
+
+
+footer #contact{
+	display: block;
+	margin: 3% 76% 0% 0;
+}
+
+footer #contact address p{
+	display: inline-block;
+    margin: 0%;
+	justify-content: flex-start;
+	line-height: 1.1;
+}
+footer p{
+	display: flex;
+    justify-content: center;
+    margin: 0%;
 }
